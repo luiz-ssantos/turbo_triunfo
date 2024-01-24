@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header,
+footer {
+  background-color: #192a56;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+header h1 a {
+  font-family: "Carter One", system-ui;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+header h1 a:hover {
+  cursor: pointer;
+}
+
+header > .container,
+footer > .container {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.menuHamburguer {
+  width: 2rem;
+}
+
+.menuHamburguer:hover {
+  width: 2.2rem;
+  cursor: pointer;
+}
+
+.menuHamburguer span {
+  height: 0.12rem;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+nav {
+  background-color: #575fcf;
+  padding: 1rem 0;
+  border-top: 0.3rem solid #fff;
+  display: none;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 1rem;
+  font-size: 1.12rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #dadada9a;
+  cursor: pointer;
+}
+
+.containerFlex {
+  display: flex;
+}
+
+#sobreLoja img {
+  max-width: 25rem;
+  margin-right: 1.5rem;
+}
+
+section {
+  padding: 3rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+section p {
+  text-align: justify;
+}
+
+.listaVeiculos {
+  flex-wrap: wrap;
+}
+
+.listaVeiculos li {
+  list-style: none;
+  max-width: 30%;
+  margin-bottom: 1.5rem;
+}
+
+.listaVeiculos li img {
+  max-width: 100%;
+}
+
+.listaVeiculos li h3 {
+  margin: 1rem 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+  background-color: #119759;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+
+.price {
+  display: block;
+  margin: 1rem 0;
+}
+
+.price > strong {
+  color: red;
+}
+
+.price > del {
+  color: #5d635d;
+  font-size: 0.9rem;
+}
+
+.itemCentral {
+  margin: 0 5%;
+}
+
+.formCamp {
+  margin-bottom: 1rem;
+  width: 18rem;
+}
+
+.formCamp label {
+  font-weight: bold;
+  display: block;
+}
+
+.formCamp input,
+.formCamp textarea {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+}
+
+.formCamp textarea {
+  resize: none;
+}
+
+form button {
+  max-width: 7.5rem;
+}
+input title {
+  color: red;
+}
+
+.error-message {
+  color: red;
+}
+
+footer li {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+footer li img {
+  height: 2rem;
+}
